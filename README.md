@@ -32,6 +32,7 @@ $ python simple_travel.py
 
 ## To Do List
 - Improve plan failure outputs
+- Add unittesting
 - Add partial planning
 - Modify logging to use colored logger
 
