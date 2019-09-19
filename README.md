@@ -2,6 +2,7 @@
 
 RAIL fork of the pyHOP planner (Hierarchical Ordered HTN Planner) with examples
 
+
 ## Concept Basics
 
 - PyHOP represents state variables using binding to regular python variables instead of logic propositions. This makes
@@ -11,11 +12,13 @@ writing and working with the state VERY easy.
 you write them as ordinary Python functions. The current state (e.g., s in the above example) is passed to them as an
  argument.
 
+
 ## Installation
 
 ```bash
 $ git clone https://github.com/GT-RAIL/rail_pyhop.git
 ```
+
 
 ## HelloWorld
 
@@ -27,9 +30,16 @@ $ python simple_travel.py
 ```
 
 
+## To Do List
+- Improve plan failure outputs
+- Add partial planning
+- Modify logging to use colored logger
+
+
 ## Acknowledgement
 ----
 
-Based on the PyHOP planner released under Apache License, Version 2.0 at [Dana S. Nau's BitBucket](https://bitbucket.org/dananau/pyhop/)
+Based on the PyHOP planner released under Apache License, Version 2.0 at 
+[Dana S. Nau's BitBucket](https://bitbucket.org/dananau/pyhop/)
 
 ----
