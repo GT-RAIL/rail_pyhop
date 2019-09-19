@@ -36,6 +36,11 @@ $ python simple_travel.py
 - Add partial planning
 - Modify logging to use colored logger
 
+## Repo Branch Structure
+- master: used to release stable versions on rail_pyhop planners (must build and pass testing)
+- dev: used to incrementally improve versions (must build)
+- other(s): feature development and bug fix branches
+
 
 ## Acknowledgement
 ----
